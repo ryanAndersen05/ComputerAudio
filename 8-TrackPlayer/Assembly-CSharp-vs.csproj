@@ -46,8 +46,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\AudioHandler.cs" />
-     <Compile Include="Assets\Scripts\ChannelHandler.cs" />
+     <Compile Include="Assets\AndersenRyan_HW1\Scripts\AudioHandler.cs" />
+     <Compile Include="Assets\AndersenRyan_HW1\Scripts\ChannelHandler.cs" />
+     <Compile Include="Assets\AndersenRyan_HW1\Scripts\SoundEffectManager.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
