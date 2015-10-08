@@ -21,6 +21,7 @@ public class HandleNotification : MonoBehaviour {
     {
         aSource.Stop();
         aSource.clip = clip;
+        aSource.pitch = slider.value + .5f;
         aSource.Play();
     }
 	

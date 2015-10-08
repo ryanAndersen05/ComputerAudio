@@ -23,6 +23,7 @@ public class HandleHeartRate : MonoBehaviour {
     public void setHeartRate(float heartRate)
     {
         this.currentHeartRate = heartRate;
+        aSource.pitch = .5f + (heartRate - heartRateSlider.minValue)  / (heartRateSlider.maxValue - heartRateSlider.minValue);
     }
 
     public void setVolumeSlider(float value)
